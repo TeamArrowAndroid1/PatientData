@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="department">
+        <item>Common</item>
+        <item>Cardiologist</item>
+        <item>broken bones</item>
+        <item>Emergency</item>
+    </string-array>
+
+    <string-array name="as">
+        <item>Nurse</item>
+        <item>Doctor</item>
+        <item>Patient</item>
+    </string-array>
+</resources>
