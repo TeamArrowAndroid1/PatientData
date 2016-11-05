@@ -1,6 +1,7 @@
 package patient.arrow.myapplication;
 
 import android.content.Intent;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -14,6 +15,8 @@ public class Staff_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_doctor_);
+        ActionBar ab=getSupportActionBar();
+        ab.setDisplayShowHomeEnabled(true);
         useridd=(TextView)findViewById(R.id.d_id);
         String user=getIntent().getStringExtra("user_id");
         if(user!=null)
